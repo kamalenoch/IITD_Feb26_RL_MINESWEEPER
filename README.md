@@ -97,18 +97,6 @@ Our development was driven by identifying and resolving five specific failure mo
 
 ---
 
-## 📊 Evaluation & Results
-
-We benchmarked three configurations on standard 6x6 grids with 5 mines.
-
-| Configuration | Win Rate | Valid JSON % | Avg. Reward |
-| :--- | :--- | :--- | :--- |
-| **Base Llama-3.1** | 0% | 5% | -10.0 |
-| **SFT Only** | 12% | 100% | -2.5 |
-| **SFT + GRPO (Final)** | **45%** | **100%** | **+22.0** |
-
----
-
 ## 📂 Repository Structure
 
 ```text
@@ -163,5 +151,4 @@ python agent_server.py --config minesweeper_config.yaml
 
 We thank the Yardi School of Artificial Intelligence (IIT Delhi) for organizing this competition.
 
-Special thanks to:
-- AMD for providing access to the powerful Instinct MI300X
+Special thanks to <b>AMD</b> for providing access to the powerful Instinct MI300X
