@@ -1,0 +1,8 @@
+## Minesweeper Agent Configuration ##
+# Generation parameters for LLM-based Minesweeper agent
+
+max_new_tokens: 128  # Short output for JSON only
+temperature: 0.3     # Low temperature for deterministic JSON output
+top_p: 0.9
+repetition_penalty: 1.2
+do_sample: true
